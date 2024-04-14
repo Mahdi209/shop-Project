@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final project</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/9928546531.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>     
+  <body>
+    <nav class="navbar">
+      <div id="logo">Shine in Drawing</div>
+      <div class="about-box">
+        <ul>
+          <li>
+            <a href="#card" class="contact">Shop</a>
+          </li>
+          <li><a href="#" class="contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero-section">
+      <div class="left">
+        <h1>Welcome to our Store</h1>
+        <p>Explore our distinctive and informative content.</p>
+        <form>
+          <button id="shop-button" type="submit">Shop Now!</button>
+        </form>
+      </div>
+      <div class="right"></div>
+    </div>
+    <div class="main">
+      <div id="text">Our Services</div>
+      <div class="Services">
+        <div class="services-box" id="first">
+          <h3 class="title">gift wrapping</h3>
+          <div class="img-box">
+            <img class="services-img" src="./pics/gift.png" alt="" />
+            <div class="inner-text">
+              We offer gift wrapping for special occasions.
+            </div>
+          </div>
+        </div>
+        <div class="services-box" id="second">
+          <h3 class="title">Customer Support</h3>
+          <div class="img-box">
+            <img
+              class="services-img"
+              id="support"
+              src="./pics/support.png"
+              alt=""
+            />
+            <div class="inner-text">
+              Our customer support is here to help you 24/7.
+            </div>
+          </div>
+        </div>
+        <div class="services-box" id="third">
+          <h3 class="title">Quality Products</h3>
+          <div class="img-box">
+            <img class="services-img" src="./pics/pngwing.com.png" alt="" />
+            <div class="inner-text">
+              We offer high-quality products to our customers.
+            </div>
+          </div>
+        </div>
+        <div class="services-box" id="fourth">
+          <h3 class="title">Easy Returns</h3>
+          <div class="img-box">
+            <img class="services-img" src="./pics/Easy Returns.png" alt="" />
+            <div class="inner-text">
+              Easy return policy for all our customers.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products" id="card">
+      <div id="text"><h1>Types of Pencils</h1></div>
+
+      <div class="grid-container">
+        <div class="inner" id="first-grid">
+          <div class="name">Graphite Pencils</div>
+          <img class="img-prodects" src="./pics/237153.jpg" alt="" />
+          <div class="products-about">
+            Invented in 1564 following a significant graphite deposit discovery
+            in England, graphite pencils have become a staple in everyday
+            writing, sketching, and drawing. These pencils are graded using the
+            B and H scale, where B (soft) leads create darker lines and H (hard)
+            leads create lighter lines.
+          </div>
+          <div class="price-container">
+            <i class="fa-solid fa-tag"></i>
+            <div class="price">16.99$</div>
+          </div>
+          <button class="details-button">DETAILS</button>
+        </div>
+        <div class="inner" id="second-grid">
+          <div class="name">Watercolor Pencils</div>
+          <img
+            class="img-prodects"
+            id="img-water"
+            src="./pics/pexels-anna-tarazevich-6146650.jpg"
+            alt=""
+          />
+          <div class="products-about">
+            Watercolor pencils bring together the precision of colored pencils
+            and the fluidity of watercolor paint. These pencils, equipped with
+            water-soluble pigments, offer the unique ability to blend, layer,
+            and create gradients of color. They are a popular choice among
+            illustrators and graphic designers for their versatility in dry and
+            wet forms.
+          </div>
+          <div class="price-container">
+            <i class="fa-solid fa-tag"></i>
+
+            <div class="price">19.99$</div>
+          </div>
+          <button class="details-button">DETAILS</button>
+        </div>
+        <div class="inner" id="third-grid">
+          <div class="name">Colored Pencils</div>
+          <img
+            class="img-prodects"
+            id="img-grid-third"
+            src="./pics/pencel.jpeg"
+            alt=""
+          />
+          <div class="products-about">
+            Tracing their roots back to Johann von Goethe in the 1820s and
+            officially invented by Faber-Castell in 1908, colored pencils have
+            revolutionized the world of art and crafting. These pencils, made
+            from a blend of wax or oil-based binders and pigments, offer a wide
+            range of color options and blending possibilities, making them ideal
+            for both artistic endeavors and practical tasks.
+          </div>
+          <div class="price-container">
+            <i class="fa-solid fa-tag"></i>
+            <div class="price">99.99$</div>
+          </div>
+          <button class="details-button">DETAILS</button>
+        </div>
+      </div>
+    </div>
+    <div class="contact-container">
+      <div><h1 id="text">Contact</h1></div>
+
+      <div id="contact-text">get in touch us and ask away!</div>
+      <form id="contact-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <textarea
+          name="message"
+          placeholder="Enter your message"
+          id="message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button class="button" id="Send-button">SEND MESSAGE</button>
+      </form>
+    </div>
+    <footer>
+      <h4>Mohammed Mahdi &copy; 2024</h4>
+    </footer>
+  </body>
+</html>

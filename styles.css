@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@100&display=swap");
+
+:root {
+  --primary: #e1f0da;
+  --Secondary: #d4e7c5;
+  --color3: #bfd8af;
+  --color4: #99bc85;
+}
+body {
+  margin: 0px;
+  font-size: 18px;
+  height: 250vh;
+  width: 100%;
+  background-color: var(--primary);
+  font-family: "Raleway", sans-serif;
+}
+.navbar {
+  background-color: var(--Secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  font-weight: 900;
+  position: sticky;
+  top: 0px;
+  
+}
+#logo {
+  margin-left: 30px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 200px;
+  padding-right: 30px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.hero-section {
+  background-color: var(--Secondary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+.right {
+  border-radius: 20px;
+  height: 400px;
+  width: 500px;
+  background-image: url(./pics/pexels-tayla-walsh-948620.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.right:hover {
+  transition: all 2000ms;
+  background-image: url(./pics/video.gif);
+  background-size: 500px 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+}
+.contact {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+.contact:hover {
+  text-decoration: underline;
+  color: var(--color4);
+  transition: all 0.5s;
+}
+button {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  transition: all 1000ms;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: var(--color4);
+  transition: all 1000ms;
+}
+
+#shop-button {
+  height: 50px;
+  width: 200px;
+  align-self: flex-start;
+}
+.main {
+  height: 428px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+.Services {
+  height: 200px;
+  gap: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.services-box {
+  width: 300px;
+  background-color: var(--Secondary);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: all 1000ms;
+}
+.img-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inner-text {
+  width: 150px;
+}
+
+.title {
+  margin-left: 20px;
+}
+.services-img {
+  height: 80px;
+  width: 80px;
+}
+.services-box:hover {
+  background-color: var(--color4);
+  transition: all 1000ms;
+  flex-wrap: wrap;
+}
+#text {
+  font-size: 30px;
+  font-weight: 900;
+  align-self: flex-start;
+  padding-left: 220px;
+  padding-top: 70px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 380px;
+  align-items: center;
+  height: 600px;
+  padding: 20px;
+  background-color: var(--Secondary);
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 1000ms;
+  align-content: center;
+}
+.inner:hover {
+  transition: all 1000ms;
+  background-color: var(--color3);
+}
+.img-prodects {
+  height: 250px;
+  width: 380px;
+  border-radius: 10px;
+}
+
+.price-container {
+  display: flex;
+  width: 80px;
+  align-items: baseline;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+.products-about {
+  align-self: flex-start;
+  width: 380px;
+}
+.name {
+  align-self: flex-start;
+  font-size: 20px;
+  font-weight: 900;
+}
+.details-button {
+  align-self: flex-start;
+  height: 50px;
+  width: 150px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+#contact-title {
+  display: flex;
+  justify-content: start;
+  margin-left: 75px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: bolder;
+  font: 900;
+}
+#email,
+#message {
+  width: 75%;
+}
+#email {
+  height: 30px;
+  border: 1px solid;
+  padding-left: 10px;
+
+  border-radius: 10px;
+}
+#message {
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#contact-text {
+  align-self: flex-start;
+  font-size: 20px;
+  padding-left: 220px;
+}
+
+label {
+  align-self: flex-start;
+  padding-left: 220px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+#Send-button {
+  width: 20%;
+  align-self: center;
+  height: 40px;
+  font-size: 20px;
+}
+footer {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: var(--color4);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 {
+  font-weight: lighter;
+}
+
+@media (max-width: 640px) {
+  #contact-text {
+    padding-left: 70px;
+    font-weight: lighter;
+  }
+  label {
+    padding-left: 70px;
+  }
+  #Send-button {
+    font-size: 15px;
+  }
+  .main {
+    height: 900px;
+  }
+
+  #text {
+    font-size: 30px;
+    font-weight: 900;
+    align-self: flex-start;
+    padding-left: 70px;
+    padding-top: 70px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  ul {
+    width: 150px;
+  }
+  .navbar {
+    font-size: 16px;
+  }
+  .hero-section {
+    background-color: var(--Secondary);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+  }
+  .right {
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 200;
+    padding: 5px;
+  }
+}
